@@ -1,0 +1,98 @@
+       
+ 
+/*1. Set the page background colour
+2. Set the page text colour 
+3. the page typeface to Georgia 
+4. Set the page text size using an appropriate relative size 
+5. Set a left and right margin of 1.5 cm and top and bottom margin of 1 cm 
+*/
+body {background:#FFFAF0; 
+        color: black; 
+        font-family: Georgia;
+       margin: 1cm 1.5cm;
+ }
+/*
+6. Heading level 1 must use: 
+	(a) 1.6 times the size of the page text size
+	(b) Arial typeface,
+	(c) a different, but appropriate, text colour to that of the page text colour 
+*/
+h1 {font-size: 1.6em;
+	font-family: Arial;
+	color:#A3A938;}
+
+
+/*
+7. Heading level 2 must use: 
+	(a) 1.3 times the size of the page text size 
+	(b) Arial typeface 
+	(c) a different, but appropriate, background colour to that of the page 
+	(d) an appropriately contrasting text colour
+*/
+
+h2 {
+	font-size: 1.3em;
+	font-family: Arial;
+	color:#A3A938; }
+
+/*8. Heading level 3 must be: 
+	(a) 1.2 times the size of the page text size
+	(b) rendered in bolded appearance 
+
+*/
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+
+}
+
+/*
+9. Heading level 4 must be: 
+(a) 1.0 times the size of the page text size 
+(b) rendered all in capitals 
+*/
+
+h4 {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+/*
+10. All paragraphs of text must use single line spacing 
+
+*/
+p {
+	line-height: 1;	
+}
+
+/*
+11. Lists on each page should use single line spacingwith the exception of the list atthe beginning of the section1 document. This list must use one-and-a-half line spacing and have a different background colour to the rest of the document. 
+*/
+
+ol#specialList li {
+	line-height: 1.5;
+	background-color: #0000FF;
+}
+
+/*
+
+12. All code examples must be rendered in an appropriate mono-spaced type face and preserve the indentation */
+code{
+	font-family: "Consolas" , monospace;
+}
+/*
+13. When the mouse moves over navigation links the link text should change to a suitable background colour with suitable contrasting text colour. 
+*/
+a:hover {
+	color: #5B1300;
+	background-color: #0000FF;
+}
+h1 {text-align: center;}
+
+
+
+
+
+
+
+        

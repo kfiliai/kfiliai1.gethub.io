@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style >
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+	font-size: 25px;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>WELCOME TO FOTUNGA ENTERPRISE</h2>
+</header>
+
+<section>
+  <nav>
+    <Ol>
+      <li><a href="materials.html">Order Materials</a></li><br>
+      <li><a href="patterns.html">Pattern Maker & Sewing</a></li><br>
+      <li><a href="faleputu.html">Funeral Decoration</a></li><br>
+      <li><a href="birthday.html">Birthday Decoration</a></li><br>
+ <!--    <li><a href="catering.html">Catering</a></li><br> -->
+    </Ol>
+  </nav>
+  
+  <article>
+    
+    <p>
+ 		Malo ho'omou lelei, 'oku mau fiefia ke talitali lelei kimoutolu 'oku<br>
+ 		afe mai ki he ki'i palepale ni.<br>
+ 		'Oku ou 'amanaki pe te mau lava ke tokoni'i koe 'i ho'a fiema'u<br>
+ 		Kataki 'o fili pe 'i he ngaahi Services ko 'ena, ha me'a te mau ala<br>
+ 		kotoni atu ai kiate koe.<br>
+ 		Faka'apa'apa atu, kaunaga mo e tamaio'eiki fie 'aonga.
+   	</p>
+   
+  </article>
+</section>
+<footer>
+  <p>www.iamptailormaker.com.au</p>
+  <button><a href="fotunga1.html">Click here to Go Back</a></button>
+</footer>
+
+</body>
+</html>

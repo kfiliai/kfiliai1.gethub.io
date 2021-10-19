@@ -1,0 +1,21 @@
+body {background:#FFFAF0; 
+        color: black; 
+        font-family: Georgia;
+       margin: 1cm 1.5cm;
+ }
+
+h1 {font-size: 1.6em;
+	font-family: Arial;
+	color:#A3A938;}
+a:hover {
+	color: #5B1300;
+	background-color: #0000FF;
+}
+h1 {font-size: 1.6em;
+	font-family: Arial;
+	color:#A3A938;}
+
+h1 {text-align: center;}
+
+div { text-align: center}
+class.center {
